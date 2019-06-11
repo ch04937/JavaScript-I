@@ -76,11 +76,11 @@ console.log(Kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-const antoniettaMultiply = function(num1,num2){
+const AntoniettaMultiply= function(num1,num2){
   return num1*num2;
 }
-antonietta.multiplyNums() = antoniettaMultiply;
-console.log(antonietta.multiplyNums(3,4));
+Antonietta.multiplyNums = AntoniettaMultiply;
+console.log(Antonietta.multiplyNums(3,4));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
